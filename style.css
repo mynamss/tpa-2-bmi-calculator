@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Nunito Bold";
+  src: url(/fonts/Nunito-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Nunito Regular";
+  src: url(/fonts/Nunito-Regular.ttf);
+}
+
+body {
+  background-color: white;
+  background-image: url("img/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  text-align: left;
+}
+
+div {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 20px rgb(7, 101, 224);
+  color: rgb(10, 185, 185);
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+h1 {
+  font-family: "Nunito Bold";
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#author {
+  font-family: "Nunito Regular";
+  margin-top: 0px;
+  text-align: center;
+}
+
+.label-text {
+  font-family: "Nunito Bold";
+  position: relative;
+  margin-left: 0px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+#weight,
+#height {
+  background: none;
+  border: none;
+  border-bottom: 1.4px solid rgb(6, 120, 120);
+  color: rgb(7, 144, 144);
+  font-family: "Nunito Regular";
+  font-size: 24px;
+  font-weight: 200;
+  outline: none;
+  text-align: left;
+  width: 250px;
+}
+
+#weight:focus,
+#height:focus {
+  border-bottom: 2px solid rgb(6, 120, 120);
+  color: rgb(6, 137, 137);
+  font-family: "Nunito Regular";
+  transition: 1s;
+  width: 500px;
+}
+
+#result {
+  font-family: "Nunito Regular";
+  font-size: 20px;
+  color: rgb(7, 159, 159);
+}
+
+#btn-submit {
+  align-content: center;
+  background-color: grey;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Nunito Bold";
+  font-size: 15px;
+  margin-top: 30px;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+}
+#btn-submit:hover {
+  background-color: rgb(6, 137, 137);
+  box-shadow: 1px 1px 10px rgb(4, 102, 102);
+}
