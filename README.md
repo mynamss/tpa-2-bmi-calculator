@@ -1,4 +1,4 @@
-# TPA 2 - BMI Calculator
+# TPA 2 Project : BMI Calculator
 
 by Nunung Ali Maulana  
 Track : Back-end Web Development  
@@ -7,7 +7,7 @@ Asal : Universitas Negeri Semarang
 
 ---
 
-BMI Calculator adalah sebuah aplikasi website untuk menghitung _Body Mass Index_ (BMI) seseorang berdasarkan standar yang telah ditetapkan.  
+BMI Calculator adalah sebuah website untuk menghitung _Body Mass Index_ (BMI) seseorang berdasarkan standar yang telah ditetapkan.  
 Berikut adalah link website :  
 Pada website yang saya buat ini, menggunakan beberapa hal pendukung, seperti
 
